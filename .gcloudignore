@@ -1,0 +1,12 @@
+.git
+.gitignore
+.dockerignore
+pycache
+venv/
+env/
+.env
+json file/
+examples/saved/
+README.md
+*.pyc
+*.pyo

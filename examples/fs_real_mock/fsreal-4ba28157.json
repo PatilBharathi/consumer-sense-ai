@@ -1,0 +1,26 @@
+{
+  "review_id": "local-9f626141",
+  "source": "manual",
+  "user_id_hash": null,
+  "raw_text": "\"This coffee is fantastic! Best I've ever had.\"",
+  "extracted_text": "\"This coffee is fantastic! Best I've ever had.\"",
+  "analysis": {
+    "sentiment": "positive",
+    "themes": [
+      "coffee quality",
+      "taste"
+    ],
+    "intent": "purchase",
+    "score": 0.9,
+    "confidence": 0.98
+  },
+  "image_gcs_path": null,
+  "language": "en",
+  "model": "gemini-2.5-pro (real)",
+  "processing_latency_ms": 10432,
+  "created_at": "2025-11-20T16:39:43.185975+00:00",
+  "processed_at": "2025-11-20T16:39:43.185975+00:00",
+  "metadata": {
+    "upload_method": "local_ui"
+  }
+}

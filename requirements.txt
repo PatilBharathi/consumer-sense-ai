@@ -1,0 +1,15 @@
+streamlit
+google-cloud-bigquery
+google-cloud-firestore
+google-cloud-storage
+pandas
+# NEW: Official Gemini 2.5 SDK
+google-genai
+# NEW: Env var management
+python-dotenv
+# Basic utilities
+requests
+Pillow
+jsonschema
+# NEW: Web Scraping
+beautifulsoup4

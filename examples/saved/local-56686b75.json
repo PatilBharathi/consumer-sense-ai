@@ -1,0 +1,31 @@
+{
+  "review_id": "local-56686b75",
+  "source": "mobile_app_screenshot",
+  "user_id_hash": null,
+  "raw_text": "The checkout crashed and I lost my cart 😕\n",
+  "extracted_text": "The checkout crashed and I lost my cart 😕\n",
+  "analysis": {
+    "sentiment": "negative",
+    "score": -0.9,
+    "themes": [
+      "checkout",
+      "cart",
+      "crash"
+    ],
+    "intent": "complaint",
+    "action_items": [
+      "Investigate checkout flow and payment logs",
+      "Open a high-priority bug ticket and assign to infra"
+    ],
+    "confidence": 0.96
+  },
+  "image_gcs_path": null,
+  "language": "en",
+  "model": "mock",
+  "processing_latency_ms": 0,
+  "created_at": "2025-11-19T16:01:49.386899+00:00",
+  "processed_at": "2025-11-19T16:01:49.386899+00:00",
+  "metadata": {
+    "upload_method": "local_ui"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "review_id": "uuid-1234-abcd",
+  "source": "mobile_app_screenshot",
+  "user_id_hash": null,
+  "raw_text": "The checkout crashed after update 😡 I lost my cart.",
+  "extracted_text": "The checkout crashed after update 😡 I lost my cart.",
+  "analysis": {
+    "sentiment": "negative",
+    "score": -0.72,
+    "themes": ["checkout", "crash", "cart"],
+    "intent": "complaint",
+    "action_items": [
+      "Investigate checkout crash",
+      "Add save-cart retry"
+    ],
+    "confidence": 0.91
+  },
+  "image_gcs_path": null,
+  "language": "en",
+  "model": "gemini-1.5-mini",
+  "processing_latency_ms": 1200,
+  "created_at": "2024-11-17T12:34:56Z",
+  "processed_at": "2024-11-17T12:34:58Z",
+  "metadata": {
+    "app_version": "1.0.0",
+    "region": "IN",
+    "upload_method": "web_ui"
+  }
+}

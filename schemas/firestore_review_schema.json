@@ -1,0 +1,48 @@
+{
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "type": "object",
+      "properties": {
+        "review_id": { "type": "string" },
+        "source": {
+          "type": "string",
+          "enum": ["mobile_app_screenshot", "twitter", "web_form", "manual", "other", "manual_text", "web_scrape"]
+        },
+        "user_id_hash": { "type": ["string", "null"] },
+        "raw_text": { "type": "string" },
+        "extracted_text": { "type": "string" },
+        "analysis": {
+          "type": "object",
+          "properties": {
+            "sentiment": { "type": "string" },
+            "themes": {
+              "type": "array",
+              "items": { "type": "string" }
+            },
+            "intent": { "type": "string" },
+            "score": { "type": "number" },
+            "confidence": { "type": "number" },
+            "overall_summary": { "type": ["string", "null"] },
+            "rich_reviews": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "metadata": { "type": "object" },
+                  "text": { "type": "string" },
+                  "analysis": { "type": "object" }
+                }
+              }
+            }
+          },
+          "required": ["sentiment", "score"]
+        },
+        "image_gcs_path": { "type": ["string", "null"] },
+        "language": { "type": "string" },
+        "model": { "type": "string" },
+        "processing_latency_ms": { "type": ["integer", "null"] },
+        "created_at": { "type": "string", "format": "date-time" },
+        "processed_at": { "type": "string", "format": "date-time" },
+        "metadata": { "type": "object" }
+      },
+      "required": ["review_id", "source", "raw_text", "created_at"]
+    }
