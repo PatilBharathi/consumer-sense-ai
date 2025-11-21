@@ -1,7 +1,7 @@
 {
   "type": "service_account",
   "project_id": "consumer-sense-ai",
-  "private_key_id": "7d82b33b234095c039e0fea3c1ddfb642a3e8243",
+  "private_key_id": "",
   "private_key": "",
   "client_email": "consumer-sense-sa@consumer-sense-ai.iam.gserviceaccount.com",
   "client_id": "105626449845504393838",
